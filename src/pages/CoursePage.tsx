@@ -19,6 +19,7 @@ export function CoursePage() {
     name: "",
     date: "",
     type: "",
+    status: "",
     description: "",
     comment: "",
   });
@@ -51,6 +52,11 @@ export function CoursePage() {
     {
       field: "type",
       headerName: "Type",
+      width: 180,
+    },
+    {
+      field: "status",
+      headerName: "Status",
       width: 180,
     },
     {

@@ -16,6 +16,7 @@ export interface ITopic {
   name: string
   date: string
   type: string
+  status: string
   description: string
   comment: string
 }

@@ -79,7 +79,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "22-11-2022",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Passed",
                 comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
             },
             {
@@ -87,7 +88,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "22-12-2021",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Upcoming",
                 comment: "Lorem ipsum dolor sit amet.",
             },
             {
@@ -95,7 +97,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "22-12-2023",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Passed",
                 comment: "",
             },
             {
@@ -103,7 +106,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "22-12-2022",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Passed",
                 comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
             },
             {
@@ -111,7 +115,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "22-12-2022",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Upcoming",
                 comment: "Lorem ipsum dolor sit amet, adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
             },
             {
@@ -119,7 +124,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "27-12-2022",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Upcoming",
                 comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
             },
             {
@@ -127,7 +133,8 @@ export const getCourseInfo = () :Promise<ICourseDetail<ITopic>> => new Promise(r
                 name: "Math",
                 description: "Some description",
                 date: "20-12-2022",
-                type: "Upcoming",
+                type: "Lecture",
+                status: "Upcoming",
                 comment: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
             },
         ]
